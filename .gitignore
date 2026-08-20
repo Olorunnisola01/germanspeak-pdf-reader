@@ -1,0 +1,21 @@
+# Virtual environment
+.venv/
+venv/
+
+# PyInstaller output (the exe ships as a GitHub Release asset)
+build/
+dist/
+*.manifest
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Audio scratch files from TTS playback
+*.mp3
+*.wav
+
+# OS cruft
+Thumbs.db
+desktop.ini
+.DS_Store

@@ -1,0 +1,7 @@
+pymupdf>=1.23
+customtkinter>=5.2
+edge-tts>=6.0
+requests>=2.31
+pillow>=10.0
+pyinstaller>=6.0
+pygame>=2.5; platform_system != "Windows"   # optional, pygame had build issues on Python 3.14 Windows during development
